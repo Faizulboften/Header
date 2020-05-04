@@ -158,7 +158,8 @@ then
    echo "\033[1;97mWaiting\033[90m...\033[1;97m"
    sleep 2
    cd config
-   cd bch
+   git clone https://github.com/kyo1337/bchclickbot
+   cd bchclickbot
    pip install -r requeirements.txt
    python main.py
 elif [ $pilih = "15" ]:
