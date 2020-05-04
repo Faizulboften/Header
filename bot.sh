@@ -125,6 +125,7 @@ then
    sleep 2
    cd config
    cd yodo
+   nano config.json
    php bot.php
 elif [ $pilih = "11" ]:
 then
