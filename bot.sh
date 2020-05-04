@@ -84,7 +84,7 @@ then
    sleep 2
    cd config
    cd cap
-   nano config.php
+   nano config.json
    php bot.php
 elif [ $pilih = "6" ]:
 then
