@@ -1,15 +1,9 @@
 <?php
 system('clear');
 
-$banner = "\033[1;31m
-Creator : JEMOY         
-YOUTUBE: I HACK U !   
-RISK :    DONT FORGET TO TAKE A BREAK   
-
-";
+
 
 
-echo $banner;
 include('config.php');
 $info = $datinfo;
 
